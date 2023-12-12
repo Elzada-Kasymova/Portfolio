@@ -34,9 +34,8 @@
 
 div.photo {
     max-width: 50%;
-    /* margin-top: 0; */
-    padding-right: 20px;
-    padding-top: 0;
+    padding-right: 0px;
+    padding-left: 80px;
 }
 
 div.photo img {
