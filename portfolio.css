@@ -26,11 +26,19 @@
     line-height: normal;
 }
 
-.menu li  {
+.menu li {
     margin-top: 15px;
     margin-left: 90px;
     margin-right: 170px;
 }
 
-/* .line {
-    border-bottom: 1px solid #f00; /* Параметры линии */
+div.photo {
+    max-width: 50%;
+    /* margin-top: 0; */
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+div.photo img {
+    width: 100%;
+}
