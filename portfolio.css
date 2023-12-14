@@ -170,28 +170,24 @@ main {
 
 .menu ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu li {
-    float: left;
+    width: 20%;
 }
 
 .menu a {
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0px 20px;
     color: white;
     font-family: Annie Use Your Telescope;
     font-size: 343.75%;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-}
-
-.menu li {
-    margin-top: 15px;
-    margin-left: 90px;
-    margin-right: 170px;
+    /* line-height: normal; */
 }
 
 div.photo {
@@ -229,21 +225,15 @@ p.cyp {
     font-family: Annie Use Your Telescope;
     font-size: 28px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
 svg {
     fill: white;
-}
-svg.i {
-    margin-left: 25%;
-    margin-top: 2%;
-}
-
-svg.git {
-    margin-left: 20%;
-
-}
-
-svg.gm {
-    margin-left: 20%;
+    margin-top: 20px;
 }
 
 hr.second {
@@ -262,6 +252,12 @@ div.loc {
     margin-left: -50px;
 }
 
+@media screen and (max-width:1427px) {
+    .menu a {
+        font-size: 310%;
+    }
+}
+
 @media screen and (max-width:1299px) {
     h1 {
         padding: 90px 0 10px;
@@ -270,6 +266,46 @@ div.loc {
 
 }
 
-@media screen and (max-width:1) {
-    
+@media screen and (max-width:999px) {
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 68px;
+    }
+
+    div.loc {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:829px) {
+    main {
+        flex-direction: column;
+    }
+
+    div.photo {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    div.content {
+        text-align: center;
+    }
+
+    div.loc {
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 88px;
+    }
+
 }
