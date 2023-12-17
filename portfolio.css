@@ -326,6 +326,7 @@ div.loc {
     }
 
     div.content {
+        max-width: 100%;
         text-align: center;
     }
 
@@ -335,6 +336,10 @@ div.loc {
 
     h1 {
         font-size: 88px;
+    }
+
+    .menu a{
+        text-align: center;
     }
 
 }

@@ -198,6 +198,11 @@ footer{
     justify-content: space-around;
 }
 
+svg{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 /* ----------------------------------- */
 /* ----------content------------ */
 
@@ -212,142 +217,100 @@ p{
     font-size: 35px;
 }
 
-.text{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px ;
-    margin-bottom: 35px;
-}
-.text1{
-    display: flex;
-    justify-content: space-between;
-}
-
 .intro {
     margin: 45px 5px 10px 35px;
 }
 
 .descr{
-    margin: 5px 5px 15px 64px;
+    margin: 5px 60px 15px 64px;
 }
 
-.st{
-    margin: 10px 0px 5px 35px;
+.first_text{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px 10px 40px;
 }
 
-.long{
-    margin: 10px 0px 5px 150px;
-}
-h1.plan{
-    margin: 10px 135px 0px 0px;
-}
-
-p.uni{
-    margin: 0 0 0px 64px;
+.second_text{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 56px 40px;
 }
 
-p.plan{
-    margin-right: 180px;
+.lang{
+    margin: 0 100px 0 0px;
+    white-space: nowrap;
 }
 
-p.leng{
-    margin-right: 78px;
+.futu{
+    margin-right: 10px;
 }
 
-svg{
-    margin-top: 15px;
-    margin-bottom: 10px;
+.l{
+    margin-left: 100px;
 }
 
 /* -------------------------------------------- */
 /* -------------media screen------------- */
 
-@media screen and (max-width: 1259px) {
-    .menu a{
+@media screen and (max-width:1115px) {
+    nav.menu a{
         font-size: 50px;
-    }
-    .menu a.edu{
-        font-size: 65px;
-    }
-    h1{
-        font-size: 38px;
     }
     p{
         font-size: 30px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .menu .edu{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:816px) {
+    nav.menu a{
+        font-size: 45px;
+    }
+    p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .menu .edu{
+        font-size: 65px;
+    }
+    .l{
+        margin-left: 10px;
     }
     svg{
         height: 45px;
         width: 45px;
     }
-    
 }
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width:670px) {
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
     .menu a{
-        font-size: 45px;
+        text-align: center;
     }
-    .menu a.edu{
-        font-size: 60px;
-    }
-    h1{
-        font-size: 35px;
-    }
-    p{
-        font-size: 25px;
-    }
-    
-    .text{
-        margin-bottom: 78px;
-    }
+
+    /* div.text{
+        display: flex;
+        justify-content: center;
+    } */
+
     svg{
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
     }
 }
-
-@media screen and (max-width: 930px) {
-    .menu a{
-        font-size: 37px;
-    }
-    .menu a.edu{
-        font-size: 55px;
-    }
-    h1{
-        font-size: 33px;
-    }
-    p{
-        font-size: 23px;
-    }
-    
-    .text{
-        margin-bottom: 117px;
-    }
-    svg{
-        height: 33px;
-        width: 33px;
-    }
-}
-
-/* @media screen and (max-width: 847px) {
-    .menu a{
-        font-size: 45px;
-    }
-    .menu a.edu{
-        font-size: 60px;
-    }
-    h1{
-        font-size: 35px;
-        white-space:;
-    }
-    p{
-        font-size: 25px;
-    }
-    
-    .text{
-        margin-bottom: 78px;
-    }
-    svg{
-        height: 35px;
-        width: 35px;
-    }
-} */

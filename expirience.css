@@ -252,6 +252,13 @@ div.p_two{
 .amb{
     margin-left: -190px;
 }
+
+div.of{
+    display: flex;
+    justify-content: space-around;
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+}
 div.p_three{
     display: flex;
     justify-content: space-around;
@@ -272,4 +279,14 @@ div.p_four{
 }
 .jun{
     margin-right: 150px;
+}
+
+/* ------------------------- */
+/* --------media screen------- */
+
+@media screen and (max-width:1230px) {
+    .org{
+        margin-right: 900px;
+        margin-left: 150px;
+    }
 }
