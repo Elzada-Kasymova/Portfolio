@@ -196,6 +196,80 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+svg{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 /* ----------------------------------------- */
 
 /* main */
+div.hone{
+    display: flex;
+    justify-content: start ;
+    font-family: Annie Use Your Telescope;
+    margin: 20px 0 20px 0;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.sec_h{
+    margin-left: 550px;
+}
+h1{
+    margin-left: 50px;
+}
+
+div.p_one{
+    display: flex;
+    justify-content: space-around;
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.vol{
+    margin-right: 120px;
+}
+.cany{
+    margin-left: 130px;
+}
+.org{
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin-left: 190px;
+    /* margin-right: 80px; */
+}
+div.p_two{
+    display: flex;
+    justify-content: space-around;
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tech{
+    margin-right: 140px;
+}
+.amb{
+    margin-left: -190px;
+}
+div.p_three{
+    display: flex;
+    justify-content: space-around;
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin-right: 120px;
+}
+div.p_four{
+    display: flex;
+    justify-content: space-around;
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 103px;
+}
+.rep{
+    margin-right: 190px;
+}
+.jun{
+    margin-right: 150px;
+}
