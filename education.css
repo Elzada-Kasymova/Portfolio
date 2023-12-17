@@ -198,12 +198,14 @@ h1{
 
 p{
     font-family: Annie Use Your Telescope;
-    font-size: 32px;
+    font-size: 35px;
 }
 
 .text{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px ;
+    margin-bottom: 35px;
 }
 .text1{
     display: flex;
@@ -212,4 +214,44 @@ p{
 
 footer{
     background-color: #D7B99D;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    margin: 45px 5px 10px 35px;
+}
+
+.descr{
+    margin: 5px 5px 15px 64px;
+}
+
+.st{
+    margin: 10px 0px 5px 35px;
+}
+
+.long{
+    margin: 10px 0px 5px 150px;
+}
+h1.plan{
+    margin: 10px 135px 0px 0px;
+}
+
+p.uni{
+    margin: 0 0 0px 64px;
+}
+
+p.plan{
+    margin-right: 180px;
+}
+
+p.leng{
+    margin-right: 78px;
+}
+
+svg{
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
