@@ -160,7 +160,7 @@
 }
 
 /* -------------------------------------------- */
-
+/* ----------nav,footer------------ */
 
 .menu ul {
     list-style: none;
@@ -190,6 +190,17 @@
     background-color: #D7B99D;
 }
 
+footer{
+    background-color: #D7B99D;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------------------------- */
+/* ----------content------------ */
+
 h1{
     font-family: Annie Use Your Telescope;
     font-size: 40px;
@@ -210,14 +221,6 @@ p{
 .text1{
     display: flex;
     justify-content: space-between;
-}
-
-footer{
-    background-color: #D7B99D;
-}
-.footer {
-    display: flex;
-    justify-content: space-around;
 }
 
 .intro {
@@ -257,6 +260,7 @@ svg{
 }
 
 /* -------------------------------------------- */
+/* -------------media screen------------- */
 
 @media screen and (max-width: 1259px) {
     .menu a{

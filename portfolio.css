@@ -3,13 +3,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     max-width: 1440px;
-}
-
-body {
-    /* background: #D7B99D; */
-    color: white;
 }
 
 .snowflake {
@@ -164,10 +159,27 @@ body {
     color: #000;
 }
 
+/* ----------------------------- */
+
+/* -----body,main--------- */
+
 main {
     display: flex;
     justify-content: space-evenly;
     background: #D7B99D; 
+}
+
+body {
+    color: white;
+}
+
+/* ---------------------------- */
+
+/* ---------nav,footer-------- */
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu ul {
@@ -175,25 +187,46 @@ main {
     display: flex;
     justify-content: space-around;
 }
-
-.menu li {
-    width: 20%;
-}
-
 .menu a {
     text-decoration: none;
-    /* display: inline-block; */
     padding: 0px 20px;
     color: black;
     font-family: Annie Use Your Telescope;
     font-size: 55px;
     font-style: normal;
     font-weight: 400;
-    /* line-height: normal; */
 }
 
+.menu .port{
+    color: #D7B99D;
+    font-size: 75px;
+}
+
+.menu a.other{
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+svg {
+    /* fill: white; */
+    margin-top: 20px;
+}
+
+/* ---------------------------- */
+
+/* --------content----------- */
+
 div.photo {
-    max-width: 35%;
+    max-width: 30%;
+    margin: 25px 0 25px 0px;
 }
 
 div.photo img {
@@ -228,28 +261,14 @@ p.cyp {
     font-size: 28px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-around;
-}
-
-svg {
-    /* fill: white; */
-    margin-top: 20px;
-}
-
-hr.second {
+hr{
     width: 100%;
     height: 1px;
-    /* background-color: #efefef00; */
     border: none;
     position: relative;
-    /* z-index: 999; */
-}
-
-hr{
     background-color: #0000004f;
 }
+
 
 div.loc {
     display: flex;
@@ -257,6 +276,10 @@ div.loc {
     padding: 150px 0 0;
     margin-left: -50px;
 }
+
+/* ---------------------------- */
+/* --------media screen-------- */
+
 
 @media screen and (max-width:1427px) {
     .menu a {
