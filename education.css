@@ -255,3 +255,95 @@ svg{
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
+/* -------------------------------------------- */
+
+@media screen and (max-width: 1259px) {
+    .menu a{
+        font-size: 50px;
+    }
+    .menu a.edu{
+        font-size: 65px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 30px;
+    }
+    svg{
+        height: 45px;
+        width: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 1099px) {
+    .menu a{
+        font-size: 45px;
+    }
+    .menu a.edu{
+        font-size: 60px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 25px;
+    }
+    
+    .text{
+        margin-bottom: 78px;
+    }
+    svg{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .menu a{
+        font-size: 37px;
+    }
+    .menu a.edu{
+        font-size: 55px;
+    }
+    h1{
+        font-size: 33px;
+    }
+    p{
+        font-size: 23px;
+    }
+    
+    .text{
+        margin-bottom: 117px;
+    }
+    svg{
+        height: 33px;
+        width: 33px;
+    }
+}
+
+/* @media screen and (max-width: 847px) {
+    .menu a{
+        font-size: 45px;
+    }
+    .menu a.edu{
+        font-size: 60px;
+    }
+    h1{
+        font-size: 35px;
+        white-space:;
+    }
+    p{
+        font-size: 25px;
+    }
+    
+    .text{
+        margin-bottom: 78px;
+    }
+    svg{
+        height: 35px;
+        width: 35px;
+    }
+} */
