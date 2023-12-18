@@ -306,6 +306,15 @@ div.loc {
         justify-content: center;
     }
 
+    .menu a {
+        padding: 0;
+        text-align: center;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
     h1 {
         font-size: 68px;
     }

@@ -167,6 +167,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .menu a {
     text-decoration: none;
     padding: 0px 20px;
@@ -177,28 +178,29 @@
     font-weight: 400;
 }
 
-.menu .edu{
+.menu .edu {
     color: white;
     font-size: 75px;
 }
 
-.menu a.other{
+.menu a.other {
     margin: 0 auto;
 }
 
-.menu{
+.menu {
     background-color: #D7B99D;
 }
 
-footer{
+footer {
     background-color: #D7B99D;
 }
+
 .footer {
     display: flex;
     justify-content: space-around;
 }
 
-svg{
+svg {
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -206,13 +208,13 @@ svg{
 /* ----------------------------------- */
 /* ----------content------------ */
 
-h1{
+h1 {
     font-family: Annie Use Your Telescope;
     font-size: 40px;
 
 }
 
-p{
+p {
     font-family: Annie Use Your Telescope;
     font-size: 35px;
 }
@@ -221,19 +223,18 @@ p{
     margin: 45px 5px 10px 35px;
 }
 
-.descr{
+.descr {
     margin: 5px 60px 15px 64px;
 }
 
-.text
-{
+.text {
     display: flex;
     justify-content: space-between;
     margin: 10px 95px 83px 45px;
     white-space: nowrap;
 }
 
-.second_colm{
+.second_colm {
     margin-right: 90px;
 }
 
@@ -241,47 +242,55 @@ p{
 /* -------------media screen------------- */
 
 @media screen and (max-width:1115px) {
-    nav.menu a{
+    nav.menu a {
         font-size: 50px;
     }
-    p{
+
+    p {
         font-size: 30px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
     }
-    .menu .edu{
+
+    .menu .edu {
         font-size: 70px;
     }
 }
 
 @media screen and (max-width:974px) {
-    .text{
+    .text {
         flex-direction: column;
         max-width: 100%;
         align-items: flex-start;
         margin: 0;
     }
-    .mtext{
+
+    .mtext {
         display: flex;
         justify-content: center;
     }
 }
 
 @media screen and (max-width:816px) {
-    nav.menu a{
+    nav.menu a {
         font-size: 45px;
     }
-    p{
+
+    p {
         font-size: 25px;
     }
-    h1{
+
+    h1 {
         font-size: 30px;
     }
-    .menu .edu{
+
+    .menu .edu {
         font-size: 65px;
     }
-    svg{
+
+    svg {
         height: 45px;
         width: 45px;
     }
@@ -298,20 +307,22 @@ p{
         justify-content: center;
     }
 
-    div.text{
-        display: inline;
-    }
-
-    .menu a{
+    .menu a {
         padding: 0;
         text-align: center;
     }
 
-    .menu li{
+    .menu li {
         text-align: center;
     }
 
-    svg{
+    div.text {
+        display: inline;
+    }
+
+
+
+    svg {
         height: 40px;
         width: 40px;
     }

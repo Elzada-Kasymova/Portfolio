@@ -203,90 +203,121 @@ svg{
 /* ----------------------------------------- */
 
 /* main */
-div.hone{
-    display: flex;
-    justify-content: start ;
-    font-family: Annie Use Your Telescope;
-    margin: 20px 0 20px 0;
-    margin-left: 60px;
-    margin-top: 40px;
-}
 
-.sec_h{
-    margin-left: 550px;
-}
 h1{
-    margin-left: 50px;
+    font-family: Annie Use Your Telescope;
+    font-size: 40px;
+    margin: 80px 0 30px 30px;
+}
+p{
+    font-family: Annie Use Your Telescope;
+    font-size: 32px;
+    margin: 20px 0 0px 0px;
 }
 
-div.p_one{
+.text{
     display: flex;
     justify-content: space-around;
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
-    margin-top: 20px;
+    margin-bottom: 143px;
 }
-.vol{
-    margin-right: 120px;
-}
-.cany{
-    margin-left: 130px;
-}
-.org{
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
-    margin-left: 190px;
-    /* margin-right: 80px; */
-}
-div.p_two{
-    display: flex;
-    justify-content: space-around;
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.or{
+    margin-left:60px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 .tech{
-    margin-right: 140px;
-}
-.amb{
-    margin-left: -190px;
+    margin-left: 60px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
-div.of{
-    display: flex;
-    justify-content: space-around;
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
+.semi{
+    margin-left: 60px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
-div.p_three{
-    display: flex;
-    justify-content: space-around;
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
-    margin-right: 120px;
-}
-div.p_four{
-    display: flex;
-    justify-content: space-around;
-    font-family: Annie Use Your Telescope;
-    font-size: 32px;
-    margin-top: 20px;
-    margin-bottom: 103px;
-}
-.rep{
-    margin-right: 190px;
-}
-.jun{
-    margin-right: 150px;
+
+.m{
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: 40px;
 }
 
 /* ------------------------- */
 /* --------media screen------- */
 
-@media screen and (max-width:1230px) {
-    .org{
-        margin-right: 900px;
-        margin-left: 150px;
+@media  screen and (max-width:1027px) {
+    h1{
+        font-size: 35px;
     }
+    p{
+        font-size: 28px;
+    }
+    .menu a{
+        font-size: 50px;
+    }
+    .expir{
+        font-size: 70px;
+    }
+}
+
+@media  screen and (max-width:884px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 23px;
+    }
+    .menu a{
+        font-size: 45px;
+    }
+    .expir{
+        font-size: 65px;
+    }
+
+    svg{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media  screen and (max-width:728px) {
+    .text{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    p{
+        font-size: 32px;
+    }
+
+    .second_colm{
+        margin: 0px 40px 0 100px;
+    }
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu a {
+        padding: 0;
+        text-align: center;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+    svg{
+        width: 40px;
+        height: 40px;
+    }
+
 }

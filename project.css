@@ -261,6 +261,10 @@ a{
     main{
         display: inline;
     }
+    svg{
+        width: 45px;
+        width: 45px;
+    }
 
 }
 
@@ -274,7 +278,17 @@ a{
         display: flex;
         justify-content: center;
     }
-    .menu a{
+
+    .menu a {
+        padding: 0;
         text-align: center;
-    }    
+    }
+
+    .menu li {
+        text-align: center;
+    }
+    svg{
+        width: 40px;
+        width: 40px;
+    }
 }
