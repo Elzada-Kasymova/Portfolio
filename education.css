@@ -225,29 +225,16 @@ p{
     margin: 5px 60px 15px 64px;
 }
 
-.first_text{
+.text
+{
     display: flex;
     justify-content: space-between;
-    margin: 30px 100px 10px 40px;
-}
-
-.second_text{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 100px 56px 40px;
-}
-
-.lang{
-    margin: 0 100px 0 0px;
+    margin: 10px 95px 83px 45px;
     white-space: nowrap;
 }
 
-.futu{
-    margin-right: 10px;
-}
-
-.l{
-    margin-left: 100px;
+.second_colm{
+    margin-right: 90px;
 }
 
 /* -------------------------------------------- */
@@ -268,6 +255,19 @@ p{
     }
 }
 
+@media screen and (max-width:974px) {
+    .text{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .mtext{
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:816px) {
     nav.menu a{
         font-size: 45px;
@@ -281,16 +281,13 @@ p{
     .menu .edu{
         font-size: 65px;
     }
-    .l{
-        margin-left: 10px;
-    }
     svg{
         height: 45px;
         width: 45px;
     }
 }
 
-@media screen and (max-width:670px) {
+@media screen and (max-width:699px) {
     .menu ul {
         flex-direction: column;
         padding: 0;
@@ -300,14 +297,19 @@ p{
         display: flex;
         justify-content: center;
     }
+
+    div.text{
+        display: inline;
+    }
+
     .menu a{
+        padding: 0;
         text-align: center;
     }
 
-    /* div.text{
-        display: flex;
-        justify-content: center;
-    } */
+    .menu li{
+        text-align: center;
+    }
 
     svg{
         height: 40px;

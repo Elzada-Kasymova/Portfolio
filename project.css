@@ -208,10 +208,9 @@ svg{
 div.Content {
     font-family: Annie Use Your Telescope;
     font-size: 25px;
-    margin-left: 70px;
-    margin-right: 25px;
+    align-items: center; 
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 30px 0 30px;
 }
 
 div.text{
@@ -255,4 +254,27 @@ a{
         font-size: 70px;
     }
 
+}
+
+@media screen and (max-width:961px) {
+    
+    main{
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width:723px) {
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+    .menu a{
+        text-align: center;
+    }    
 }
