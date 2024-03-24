@@ -165,7 +165,7 @@
 main {
     display: flex;
     justify-content: space-evenly;
-    background: #D7B99D; 
+    background: #3f547c; 
 }
 
 body {
@@ -197,7 +197,7 @@ body {
 }
 
 .menu .port{
-    color: #D7B99D;
+    color: #3f547c;
     font-size: 75px;
 }
 
@@ -230,6 +230,7 @@ div.photo {
 div.photo img {
     width: 100%;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px 4px rgb(0, 0, 0, 0.3);
 }
 
 h1 {
